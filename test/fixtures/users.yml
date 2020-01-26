@@ -1,15 +1,22 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: momoyama
+  userId: momoyama
   user_name: 桃山みらい
   profile: きらりヶ丘中学2年性。プリチャンアイドルやってます！
   icon: momoyamaIcon
   header: momoyamaHeader
 
 two:
-  user_id: aoba
+  userId: aoba
   user_name: 青葉りんか
   profile: メガネ
   icon: aobaIcon
   header: aobaHeader
+
+moegi:
+  userId : emo
+  user_name: 萌黄えも
+  profile: えもえもな中学生
+  icon: emoIcon
+  header: emoHeader

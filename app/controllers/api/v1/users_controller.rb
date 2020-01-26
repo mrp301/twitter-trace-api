@@ -10,7 +10,7 @@ module Api
 
       #   /api/v1/users/:id(.:format) 
       def show 
-        render status: 200, json: { status: 200, data: @user }
+        render :json => @user
       end
 
       private

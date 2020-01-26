@@ -24,6 +24,22 @@ tweet2:
   img3:
   img4:
 
+tweet3:
+  user_id: 298486374
+  content: ツイート4
+  img1:
+  img2:
+  img3:
+  img4:
+
+tweet4:
+  user_id: 298486374
+  content: ツイート5
+  img1:
+  img2:
+  img3:
+  img4:
+
 two:
   user_id: 29848637
   content: メガネ
