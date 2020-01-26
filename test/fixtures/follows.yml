@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 298486374
+  follow_uesr_id: 980190962
+
+two:
+  user_id: 298486374
+  follow_uesr_id: 336301797
+
+twp1:
+  user_id: 336301797
+  follow_uesr_id: 298486374

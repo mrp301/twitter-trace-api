@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :posts
       resources :users
       resources :tweets
+      resources :follows
     end
   end
 end
