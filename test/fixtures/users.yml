@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: momoyama
+  user_name: 桃山みらい
+  profile: きらりヶ丘中学2年性。プリチャンアイドルやってます！
+  icon: momoyamaIcon
+  header: momoyamaHeader
+
+two:
+  user_id: aoba
+  user_name: 青葉りんか
+  profile: メガネ
+  icon: aobaIcon
+  header: aobaHeader

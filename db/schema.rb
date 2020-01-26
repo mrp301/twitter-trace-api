@@ -10,10 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_22_190718) do
+ActiveRecord::Schema.define(version: 2020_01_25_152234) do
 
   create_table "posts", force: :cascade do |t|
     t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tweets", force: :cascade do |t|
+    t.integer "user_id"
+    t.text "content"
+    t.string "img1"
+    t.string "img2"
+    t.string "img3"
+    t.string "img4"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "userId"
+    t.string "user_name"
+    t.text "profile"
+    t.string "icon"
+    t.string "header"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
