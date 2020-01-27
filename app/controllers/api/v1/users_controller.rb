@@ -10,7 +10,20 @@ module Api
 
       #   /api/v1/users/:id(.:format) 
       def show 
+        @user = User.find(params[:id])
         render :json => @user
+      end
+
+      def timeline
+        user_id = params[:id].to_i
+        ids = User.find(user_id).follows.pluck(:follow_uesr_id) << user_id
+        tweets = Tweet.where('user_id': ids).order(created_at: "DESC").to_json(:include => :user)
+        render :json => tweets
+      end
+
+      def follow_tweets
+        users = User.find(params[:id]).follows_tweets.order(created_at: "DESC").to_json(:include => :user)
+        render :json => tweets
       end
 
       private

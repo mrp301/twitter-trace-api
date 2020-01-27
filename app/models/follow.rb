@@ -1,4 +1,4 @@
 class Follow < ApplicationRecord
   belongs_to :user
-  has_many :tweets
+  belongs_to :tweet, foreign_key: :follow_uesr_id, primary_key: :user_id
 end
