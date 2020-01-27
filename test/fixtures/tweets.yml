@@ -2,47 +2,7 @@
 
 one:
   user_id: 298486374
-  content: キラッとやってみた！
-  img1:
-  img2:
-  img3:
-  img4:
-
-tweet1:
-  user_id: 298486374
-  content: ツイート2
-  img1:
-  img2:
-  img3:
-  img4:
-
-tweet2:
-  user_id: 298486374
-  content: ツイート3
-  img1:
-  img2:
-  img3:
-  img4:
-
-tweet3:
-  user_id: 298486374
-  content: ツイート4
-  img1:
-  img2:
-  img3:
-  img4:
-
-tweet4:
-  user_id: 298486374
-  content: ツイート5
-  img1:
-  img2:
-  img3:
-  img4:
-
-two:
-  user_id: 29848637
-  content: メガネ
+  content: おはよう！
   img1:
   img2:
   img3:
