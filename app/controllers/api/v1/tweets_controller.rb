@@ -18,7 +18,7 @@ module Api
         @tweet = Tweet.new(tweet_params)
         if @tweet.save
           get_tweets(params[:id])
-          render :json => @tweets
+          render :json => @tweet.to_json(:include => :user)
         else
           render json: { status: 'ERROR', data: post.errors }
         end

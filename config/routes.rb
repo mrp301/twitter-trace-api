@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :users do
         member do
           get :timeline
+          get :my_tweets
         end
       end
       resources :tweets
